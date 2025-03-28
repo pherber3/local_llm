@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.pytest_cache
+.git
+*.bin
+*.pickle
+*.pkl
+
+# Virtual environments
+.venv
+
+# Vector db
+.data
+*.sqlite3
+
+# Environment variables
+.env
+
+# Misc
+.python-version
+*.json

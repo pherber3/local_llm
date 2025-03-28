@@ -1,0 +1,17 @@
+# Document processing settings -- Removed for now to focus on returning whole documents instead
+#chunk_size: 3000
+#chunk_overlap: 600
+
+# Model settings
+model_name: "deepseek-r1:32b"
+k_docs: 3
+
+# Paths
+codebase_path: "/Users/pherbert/Documents/GoHealth Projects/model-plan-recommendation/modelplanrecommendation"
+persist_directory: "./data/vectorstore"
+
+# Cache settings
+cache_embeddings: true
+
+# Project Description
+project_description: "This Medicare plan recommendation system calculates personalized 'fit scores' (0-100) to match beneficiaries with Medicare Advantage and Part D prescription drug plans that best meet their needs. It uses a graph-based scoring architecture that evaluates multiple plan attributes - including premiums, provider networks, drug coverage, supplemental benefits (like dental and vision), and quality metrics - while incorporating both objective plan features and subjective user preferences. The system processes various inputs including plan properties, user preferences, coverage needs, and external data (like star ratings and market share), running these through either heuristic or neural network models to generate weighted scores. These scores help simplify the complex Medicare plan selection process by providing data-driven recommendations that account for individual circumstances, including special eligibility factors like LIS/Medicaid status or CSNP eligibility."
